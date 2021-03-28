@@ -108,6 +108,24 @@ datavis:Adresse a rdf:Property ;
     owl:sameAs dcterms:title ;
     vs:term_status "experimental" .
 
+datavis:Filiales a rdfs:Class ;
+    rdfs:label "Filiales" ;
+    rdfs:domain o:Ressource;
+    vs:term_status "experimental" .
+
+datavis:Numéro a rdf:Property ;
+    rdfs:label "Numéro" ; 
+    rdfs:domain o:ressource ;
+    owl:sameAs dcterms:title ;
+    vs:term_status "experimental" .
+
+datavis:Adresse a rdf:Property ;
+    rdfs:label "Adresse" ; 
+    rdfs:domain o:ressource ;
+    owl:sameAs dcterms:title ;
+    vs:term_status "experimental" .
+
+
 datavis:DataAnalystes a rdfs:Class ;
     rdfs:label "DataAnalystes" ;
     rdfs:domain o:Ressource;
