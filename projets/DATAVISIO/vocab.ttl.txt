@@ -11,170 +11,169 @@
 
 datavis:Fournisseurs a rdfs:Class ;
     rdfs:label "Fournisseurs" ;
-    rdfs: domain o:Ressource;
+    rdfs:domain o:Ressource;
     vs:term_status "experimental" .
 
-datavis:Id a rdf:Property ;
+datavis:Id a rdfs:Property ;
     rdfs:label "Id" ; 
     rdfs:domain o:ressource ;
     owl:sameAs dcterms:title ;
-    vs: term_status "experimental" .
+    vs:term_status "experimental" .
 
-datavis:NSiret a rdf:Property ;
+datavis:NSiret a rdfs:Property ;
     rdfs:label "NSiret" ; 
     rdfs:domain o:ressource ;
     owl:sameAs dcterms:title ;
-    vs: term_status "experimental" .
+    vs:term_status "experimental" .
 
 datavis:Nom a rdf:Property ;
     rdfs:label "Nom" ; 
     rdfs:domain o:ressource ;
     owl:sameAs dcterms:title ;
-    vs: term_status "experimental" .
+    vs:term_status "experimental" .
 
 datavis:Adresse a rdf:Property ;
     rdfs:label "Adresse" ; 
     rdfs:domain o:ressource ;
     owl:sameAs dcterms:title ;
-    vs: term_status "experimental" .
+    vs:term_status "experimental" .
 
 datavis:Produits a rdfs:Class ;
     rdfs:label "Produits" ;
-    rdfs: domain o:Ressource;
+    rdfs:domain o:Ressource;
     vs:term_status "experimental" .
 
 datavis:Id a rdf:Property ;
     rdfs:label "Id" ; 
     rdfs:domain o:ressource ;
     owl:sameAs dcterms:title ;
-    vs: term_status "experimental" .
+    vs:term_status "experimental" .
 
 datavis:Description a rdf:Property ;
     rdfs:label "Description" ; 
     rdfs:domain o:ressource ;
     owl:sameAs dcterms:title ;
-    vs: term_status "experimental" .
+    vs:term_status "experimental" .
 
 datavis:Prix a rdf:Property ;
     rdfs:label "Prix" ; 
     rdfs:domain o:ressource ;
     owl:sameAs dcterms:title ;
-    vs: term_status "experimental" .
+    vs:term_status "experimental" .
 
 datavis:Image a rdf:Property ;
     rdfs:label "Image" ; 
     rdfs:domain o:ressource ;
     owl:sameAs dcterms:title ;
-    vs: term_status "experimental" .
+    vs:term_status "experimental" .
 
 datavis:Catégorie a rdf:Property ;
     rdfs:label "Catégorie" ; 
     rdfs:domain o:ressource ;
     owl:sameAs dcterms:title ;
-    vs: term_status "experimental" .
+    vs:term_status "experimental" .
 
 datavis:Clients a rdfs:Class ;
     rdfs:label "Clients" ;
-    rdfs: domain o:Ressource;
+    rdfs:domain o:Ressource;
     vs:term_status "experimental" .
 
 datavis:Id a rdf:Property ;
     rdfs:label "Id" ; 
     rdfs:domain o:ressource ;
     owl:sameAs dcterms:title ;
-    vs: term_status "experimental" .
+    vs:term_status "experimental" .
 
 datavis:Nom a rdf:Property ;
     rdfs:label "Nom" ; 
     rdfs:domain o:ressource ;
     owl:sameAs dcterms:title ;
-    vs: term_status "experimental" .
+    vs:term_status "experimental" .
 
 datavis:Prénom a rdf:Property ;
     rdfs:label "Prénom" ; 
     rdfs:domain o:ressource ;
     owl:sameAs dcterms:title ;
-    vs: term_status "experimental" .
+    vs:term_status "experimental" .
 
 datavis:Age a rdf:Property ;
     rdfs:label "Age" ; 
     rdfs:domain o:ressource ;
     owl:sameAs dcterms:title ;
-    vs: term_status "experimental" .
+    vs:term_status "experimental" .
 
 datavis:Adresse a rdf:Property ;
     rdfs:label "Adresse" ; 
     rdfs:domain o:ressource ;
     owl:sameAs dcterms:title ;
-    vs: term_status "experimental" .
-
-datavis:Data Analystes a rdfs:Class ;
-    rdfs:label "Data Analystes" ;
-    rdfs: domain o:Ressource;
     vs:term_status "experimental" .
 
+datavis:DataAnalystes a rdfs:Class ;
+    rdfs:label "DataAnalystes" ;
+    rdfs:domain o:Ressource;
+    vs:term_status "experimental" .
 
 datavis:Id a rdf:Property ;
     rdfs:label "Id" ; 
     rdfs:domain o:ressource ;
     owl:sameAs dcterms:title ;
-    vs: term_status "experimental" .
-
-datavis:Nom a rdf:Property ;
-    rdfs:label "Nom" ; 
-    rdfs:domain o:ressource ;
-    owl:sameAs dcterms:title ;
-    vs: term_status "experimental" .
-
-datavis:Prénom a rdf:Property ;
-    rdfs:label "Prénom" ; 
-    rdfs:domain o:ressource ;
-    owl:sameAs dcterms:title ;
-    vs: term_status "experimental" .
-
-datavis:Logiciels a rdfs:Class ;
-    rdfs:label "Data "Logiciels" ;
-    rdfs: domain o:Ressource;
     vs:term_status "experimental" .
 
 datavis:Nom a rdf:Property ;
     rdfs:label "Nom" ; 
     rdfs:domain o:ressource ;
     owl:sameAs dcterms:title ;
-    vs: term_status "experimental" .
+    vs:term_status "experimental" .
+
+datavis:Prénom a rdf:Property ;
+    rdfs:label "Prénom" ; 
+    rdfs:domain o:ressource ;
+    owl:sameAs dcterms:title ;
+    vs:term_status "experimental" .
+
+datavis:Logiciels a rdfs:Class ;
+    rdfs:label "Logiciels" ;
+    rdfs:domain o:Ressource;
+    vs:term_status "experimental" .
+
+datavis:Nom a rdf:Property ;
+    rdfs:label "Nom" ; 
+    rdfs:domain o:ressource ;
+    owl:sameAs dcterms:title ;
+    vs:term_status "experimental" .
 
 datavis:Version a rdf:Property ;
     rdfs:label "Version" ; 
     rdfs:domain o:ressource ;
     owl:sameAs dcterms:title ;
-    vs: term_status "experimental" .
+    vs:term_status "experimental" .
 
 datavis:Collection a rdf:Property ;
     rdfs:label "Collection" ; 
     rdfs:domain o:ressource ;
     owl:sameAs dcterms:title ;
-    vs: term_status "experimental" .
+    vs:term_status "experimental" .
 
 datavis:Traitemnt a rdf:Property ;
     rdfs:label "Traitement" ; 
     rdfs:domain o:ressource ;
     owl:sameAs dcterms:title ;
-    vs: term_status "experimental" .
+    vs:term_status "experimental" .
 
 datavis:Détection a rdf:Property ;
     rdfs:label "Détection" ; 
     rdfs:domain o:ressource ;
     owl:sameAs dcterms:title ;
-    vs: term_status "experimental" .
+    vs:term_status "experimental" .
 
 datavis:Visualisation a rdf:Property ;
     rdfs:label "Visualisation" ; 
     rdfs:domain o:ressource ;
     owl:sameAs dcterms:title ;
-    vs: term_status "experimental" .
+    vs:term_status "experimental" .
 
 datavis:Prédiction a rdf:Property ;
     rdfs:label "Prédiction" ; 
     rdfs:domain o:ressource ;
     owl:sameAs dcterms:title ;
-    vs: term_status "experimental" .
+    vs:term_status "experimental" .
