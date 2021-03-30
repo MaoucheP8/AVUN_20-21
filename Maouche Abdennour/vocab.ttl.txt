@@ -9,6 +9,16 @@
 <https://jardindesconnaissances.univ-paris8.fr/AVUN/20-21/g5/onto/datavis#> a owl:Ontology ;
     dcterms:title " Data Visio " .
 
+datavis:BD a rdfs:Class ;
+    rdfs:label "BD" ;
+    rdfs:domain o:Ressource;
+    vs:term_status "experimental" .
+
+datavis:Approvisionnement a rdfs:Class ;
+    rdfs:label "Approvisionnement" ;
+    rdfs:domain o:Ressource;
+    vs:term_status "experimental" .
+
 datavis:Fournisseurs a rdfs:Class ;
     rdfs:label "Fournisseurs" ;
     rdfs:domain o:Ressource;
@@ -36,6 +46,11 @@ datavis:Adresse a rdf:Property ;
     rdfs:label "Adresse" ; 
     rdfs:domain o:ressource ;
     owl:sameAs dcterms:title ;
+    vs:term_status "experimental" .
+
+datavis:Ventes a rdfs:Class ;
+    rdfs:label "Ventes" ;
+    rdfs:domain o:Ressource;
     vs:term_status "experimental" .
 
 datavis:Produits a rdfs:Class ;
@@ -96,25 +111,37 @@ datavis:Prénom a rdf:Property ;
     owl:sameAs dcterms:title ;
     vs:term_status "experimental" .
 
+datavis:Genre a rdf:Property ;
+    rdfs:label "Genre" ; 
+    rdfs:domain o:ressource ;
+    owl:sameAs dcterms:title ;
+    vs:term_status "experimental" .
+
 datavis:Age a rdf:Property ;
     rdfs:label "Age" ; 
     rdfs:domain o:ressource ;
     owl:sameAs dcterms:title ;
     vs:term_status "experimental" .
 
+datavis:Achats a rdf:Property ;
+    rdfs:label "Achats" ; 
+    rdfs:domain o:ressource ;
+    owl:sameAs dcterms:title ;
+    vs:term_status "experimental" .
+
 datavis:Adresse a rdf:Property ;
     rdfs:label "Adresse" ; 
     rdfs:domain o:ressource ;
     owl:sameAs dcterms:title ;
     vs:term_status "experimental" .
 
-datavis:Filiales a rdfs:Class ;
-    rdfs:label "Filiales" ;
+datavis:Servicecommercial a rdfs:Class ;
+    rdfs:label "Servicecommercial" ;
     rdfs:domain o:Ressource;
     vs:term_status "experimental" .
 
-datavis:Numéro a rdf:Property ;
-    rdfs:label "Numéro" ; 
+datavis:Description a rdf:Property ;
+    rdfs:label "Description" ; 
     rdfs:domain o:ressource ;
     owl:sameAs dcterms:title ;
     vs:term_status "experimental" .
@@ -125,6 +152,11 @@ datavis:Adresse a rdf:Property ;
     owl:sameAs dcterms:title ;
     vs:term_status "experimental" .
 
+datavis:Identifiant a rdf:Property ;
+    rdfs:label "Identifiant" ; 
+    rdfs:domain o:ressource ;
+    owl:sameAs dcterms:title ;
+    vs:term_status "experimental" .
 
 datavis:DataAnalystes a rdfs:Class ;
     rdfs:label "DataAnalystes" ;
@@ -149,8 +181,8 @@ datavis:Prénom a rdf:Property ;
     owl:sameAs dcterms:title ;
     vs:term_status "experimental" .
 
-datavis:Logiciels a rdfs:Class ;
-    rdfs:label "Logiciels" ;
+datavis:SGBD a rdfs:Class ;
+    rdfs:label "SGBD" ;
     rdfs:domain o:Ressource;
     vs:term_status "experimental" .
 
@@ -164,6 +196,11 @@ datavis:Version a rdf:Property ;
     rdfs:label "Version" ; 
     rdfs:domain o:ressource ;
     owl:sameAs dcterms:title ;
+    vs:term_status "experimental" .
+
+datavis:Algorithme a rdfs:Class ;
+    rdfs:label "Algorithme" ;
+    rdfs:domain o:Ressource;
     vs:term_status "experimental" .
 
 datavis:Collection a rdf:Property ;
