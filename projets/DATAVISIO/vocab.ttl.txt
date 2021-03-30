@@ -15,6 +15,11 @@ datavis:BD a rdfs:Class ;
     rdfs:domain o:Ressource;
     vs:term_status "experimental" .
 
+datavis:Approvisionnement a rdfs:Class ;
+    rdfs:label "Approvisionnement" ;
+    rdfs:domain o:Ressource;
+    vs:term_status "experimental" .
+
 datavis:Fournisseurs a rdfs:Class ;
     rdfs:label "Fournisseurs" ;
     rdfs:domain o:Ressource;
